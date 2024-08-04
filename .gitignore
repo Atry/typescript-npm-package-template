@@ -125,3 +125,6 @@ docs/
 .envrc.private
 result
 .pre-commit-config.yaml
+
+# nixago: ignore-linked-files
+/.vscode/extensions.json

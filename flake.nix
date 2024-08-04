@@ -19,6 +19,14 @@
       ];
       perSystem = { pkgs, config, lib, system, ... }: {
         ml-ops.devcontainer = {
+          nixago.requests = {
+            ".vscode/extensions.json".data = {
+              "recommendations" = [
+                "esbenp.prettier-vscode"
+                "vivaxy.vscode-conventional-commits"
+              ];
+            };
+          };
           devenvShellModule = {
             languages = {
               javascript = {
