@@ -117,3 +117,14 @@ dist
 
 # Compiled code
 lib/
+
+# TypeDoc
+docs/
+
+# typescript-doctest
+/test/doc/
+.direnv/
+.devenv/
+.envrc.private
+result
+.pre-commit-config.yaml
