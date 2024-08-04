@@ -28,6 +28,7 @@
             };
           };
           devenvShellModule = {
+            dotenv.disableHint = true;
             languages = {
               javascript = {
                 enable = true;
